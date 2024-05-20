@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
 
 namespace EjercicioPolimorfismo
 {
-    internal interface ILibroBiblia
+    public interface ILibroBiblia
     {
+        // Definir la interfaz ILibroBiblia
+        public void Descripcion();
+        public void CitarVersiculo();
     }
 }
